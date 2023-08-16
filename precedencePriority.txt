@@ -1,0 +1,6 @@
+&&, ||, ^, !, 
+have higher priority than =
+
+but 
+and, or, xor, not,
+have lower priority than =

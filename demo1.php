@@ -1,3 +1,5 @@
+
+<!-- in php functions have GLOBAL SCOPE even if defined in local scope -->
 <?php
 $a = 34;
 echo $a."<br>";        
@@ -14,5 +16,13 @@ define("y","32");
 }
 a();
 echo $a ."<br>";
-echo y;
+echo y ."<br>";
+
+
+{
+    // accessing a global variable
+    global $a;
+    echo $a;
+}
+
 ?>
