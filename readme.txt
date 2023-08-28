@@ -6,3 +6,8 @@ Server Side Scripting
 > reducing processing & load time on client side
 > customization and optimization for client side
 
+----------------------------------------------------------------------------
+validation: 
+sanitization: 
+sanitizing input means removing all illegal characters using deleting, replacing, encoding, or escaping techniques.
+
