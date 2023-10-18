@@ -13,7 +13,7 @@ if($_POST)
     else if ($marks>=34 && $marks<50) {    
         echo "D grade";    
     }    
-    else if ($marks>=50 && $marks<65) {    
+    elseif ($marks>=50 && $marks<65) {    
        echo "C grade";   
     }    
     else if ($marks>=65 && $marks<80) {    
@@ -22,7 +22,7 @@ if($_POST)
     else if ($marks>=80 && $marks<90) {    
         echo "A grade";    
     }  
-    else if ($marks>=90 && $marks<=100) {    
+    elseif ($marks>=90 && $marks<=100) {    
         echo "A+ grade";   
     }  
    else {    

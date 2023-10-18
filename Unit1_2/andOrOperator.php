@@ -5,7 +5,7 @@ $value2 = TRUE;
 if($value1 && $value2)
     echo "TRUE" ."<br>";
 if($value1 and $value2)
-    echo "TRUE" ."<br>";
+    echo "TRUE" ."<br>";    
 
 echo "<br>-----------------<br>";
 $value1 = TRUE && FALSE;            // precedence of "&&" is higher than "="

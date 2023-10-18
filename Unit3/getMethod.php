@@ -1,5 +1,5 @@
 <!-- 
-    local variable $_GET, 
+    superGlobal variable $_GET, 
     superGlobal variable $_POST,
     superGlobal variable $_REQUEST : can hold content of both $_GET and $_POST variable
             but it is used to collect all the form data sent either by GET method or POST method

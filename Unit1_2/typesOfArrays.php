@@ -8,6 +8,7 @@
     // first way
     $a[0] = 12;
     $a[1] = 3;
+    $a[4] = 345;
     $a[] = false;       // does not print anything
     // $a[] = "hello";
     // $a[] = 'True';
