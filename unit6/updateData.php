@@ -1,7 +1,9 @@
 <?php
 $link = mysqli_connect("localhost", "root", "", "myDB");
 if($link === false) die("ERROR: Could not connect. " .mysqli_connect_error());
-$sql = "UPDATE testing SET last_name='Sharma' WHERE id=1";
+// $sql = "UPDATE testing SET last_name='Sharma' WHERE id=1";
+$sql = "UPDATE testing SET gender='male' WHERE id=2";
+
 if(mysqli_query($link, $sql))
     echo "Record updated successfully.";
 else 

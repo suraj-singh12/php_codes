@@ -6,7 +6,7 @@ if (isset($_POST['submit'])) {
 
     //Initialize variables
 
-    $to = "dummyrose1992@gmail.com";
+    $to = "surajsingh5092@gmail.com";
     $subject = "Contact from " . $name;
     $message = "<h2>Contact Query from the user: </h2>
                 <h4>Name:" . $name . "</h4>
@@ -21,6 +21,5 @@ if (isset($_POST['submit'])) {
     } else {
         echo "mail sending failed";
     }
-
 }
 ?>
